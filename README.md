@@ -1,7 +1,7 @@
 # Medical Staffing Plan: Project Overview
 Created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons.
 Performed data cleansing and statistical analyses on U.S. Census and CDC data sets using Excel and Tableau.
-Developed visualizations to perform spatial analyses and developed a dashboard using Tableau.
+Developed a dashboard to present visualizations using Tableau.
 
 ## YouTube Project Walk-Through
 https://youtu.be/vcfuhCl_TEA
@@ -13,8 +13,8 @@ Excel
   
 Tableau
 * Data manipulation
-* Visualizations
 * Spatial analyis
+* Visualizations
 
 ## Purpose & Context
 I was tasked to perform exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
