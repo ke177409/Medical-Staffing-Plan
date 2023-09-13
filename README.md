@@ -1,4 +1,4 @@
-# Medical-Staffing-Plan: Project Overview
+# Medical Staffing Plan: Project Overview
 Created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons.
 Performed data cleansing and statistical analyses on U.S. Census and CDC data sets using Excel and Tableau.
 Developed visualizations to perform spatial analyses using Tableau.
