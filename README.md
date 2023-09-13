@@ -4,6 +4,9 @@
 * Developed visualizations to perform spatial analyses using Tableau.
 * Built a client dashboard using Tableau.
 
+## YouTube Project Walk-Through
+(https://youtu.be/vcfuhCl_TEA)
+
 ## Tools & Skills
 ** Excel
 ** Data cleansing, transformation, and integration
@@ -11,7 +14,7 @@
 ** Tableau
 ** Visualizations
 ** Spatial Analyis
-![image](https://github.com/ke177409/Medical-Staffing-Plan/assets/118031032/c0e6cc43-5fde-4ab3-b7c3-44d21cd05f24)
+(https://youtu.be/Hctc79cS_os)
 
 ## Purpose & Context
 ** This project was a part of CareerFoundry’s Data Immersion curriculum. 
