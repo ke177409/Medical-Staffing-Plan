@@ -17,7 +17,7 @@ Tableau
 * Spatial Analyis
 
 ## Purpose & Context
-This project was a part of CareerFoundry’s Data Immersion curriculum. I was tasked to perform an exploratory analysis on multiple data sets using Excel and Tableau. Each part of this project was evaluated with feedback by a tutor and mentor. 
+This project was a part of CareerFoundry’s Data Immersion curriculum. I was tasked to perform exploratory and statistical analyses on multiple data sets using Excel and Tableau. Each part of this project was evaluated with feedback by a tutor and mentor. 
 I was responsible for deciding on the project scope and final presentation format.
 
 ## Data Cleaning, Integration and Transformation
