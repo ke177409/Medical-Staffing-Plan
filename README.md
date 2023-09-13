@@ -29,8 +29,9 @@ accurately in each state.
 Spatial analysis was crucial for this project’s goal. With the use of an intuitive color gradient, I was able to create a map of the United States that draws the viewer’s eyes to areas most affected by influenza 
 infections. Portraying multiple variables in one visualization helped me uncover insights that were not easily identifiable from the raw data. For example, states with more medical staff than influenza patients also 
 tend to have lower mortality rates.
-<img src="https://github.com/ke177409/Medical-Staffing-Plan/assets/118031032/a725ebdd-f43c-4ba7-af73-8a44ff0f1b08" width="200" height="100" />
-
+<p align="center">
+  <img src="https://github.com/ke177409/Medical-Staffing-Plan/assets/118031032/a725ebdd-f43c-4ba7-af73-8a44ff0f1b08" width="375" height="223"/>
+</p>
 
 ## Recommendations and Findings
 * The staffing agency should begin allocating medical staff prior to January each year when influenza death counts are highest.
