@@ -21,20 +21,15 @@ I was tasked to perform exploratory and statistical analyses on multiple data se
 
 ## Data Cleaning, Integration, and Transformation
 * Removed duplicates:
-  * Used concatenate and COUNTIF functions to identify and retain unique combinations of County/Year/Population in Population dataset.
-  * Used PivotTables to identify duplicate age groups (25-49 & 25-64) in ILI visits dataset.
-* Imputed missing values: 144 "N/A" values in state column had a state code that matched to "District of Columbia". District of Columbia only had 1,152 values out of the 1,296 expected values for each state.
+  * Used concatenate and COUNTIF functions to identify and retain unique combinations of County/Year/Population in US Census dataset.
+* Imputed missing values in Influenza Death dataset: 144 "N/A" values in state column had a state code that matched to "District of Columbia". District of Columbia only had 1,152 values out of the 1,296 expected values for each state.
 * Removed columns and rows with missing or irrelevant data:
   * All age groups and state of Florida in ILI visits
-  * "State code" in Death dataset
+  * "State code" in Influenza Death dataset
 * Converted values into appropriate datatypes:
-  * "% Unweighted ILI" values from whole numbers into percentages
   * Population counts from decimals into whole numbers
   * State abbreviations to their full names
-* Corrected region types:
-  * New York City from state to city
-  * Puerto Rico & Virgin Islands from states to territories
-* Corrected year "20133" to "2013" in Death dataset.
+* Corrected year "20133" to "2013" in Influenza Death dataset.
 * Restructured age groups into consistent format to allow for dataset integration.
 * Integrated datasets using VLOOKUP function.
 * Created new variable that normalizes mortality rates for each age group.
