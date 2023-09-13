@@ -1,8 +1,7 @@
 # Medical Staffing Plan: Project Overview
 Created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons.
 Performed data cleansing and statistical analyses on U.S. Census and CDC data sets using Excel and Tableau.
-Developed visualizations to perform spatial analyses using Tableau.
-Built a client dashboard using Tableau.
+Developed visualizations to perform spatial analyses and developed a dashboard using Tableau.
 
 ## YouTube Project Walk-Through
 https://youtu.be/vcfuhCl_TEA
@@ -15,15 +14,30 @@ Excel
 Tableau
 * Data manipulation
 * Visualizations
-* Spatial Analyis
+* Spatial analyis
 
 ## Purpose & Context
 I was tasked to perform exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
 
 ## Data Cleaning, Integration, and Transformation
-I began by reviewing and correcting errors within each data set. Certain age groups, years, and states had missing data which I removed or flagged after considering any effects on the results.
-The use of separate data sets was getting messy, so I decided to use common variables to integrate them into one large data set. I also created a new variable using a weighted average to calculate mortality rates more 
-accurately in each state.
+* Removed duplicates:
+  * Used concatenate and COUNTIF functions to identify and retain unique combinations of County/Year/Population in Population dataset.
+  * Used PivotTables to identify duplicate age groups (25-49 & 25-64) in ILI visits dataset.
+* Imputed missing values: 144 "N/A" values in state column had a state code that matched to "District of Columbia". District of Columbia only had 1,152 values out of the 1,296 expected values for each state.
+* Removed columns and rows with missing or irrelevant data:
+  * All age groups and state of Florida in ILI visits
+  * "State code" in Death dataset
+* Converted values into appropriate datatypes:
+  * "% Unweighted ILI" values from whole numbers into percentages
+  * Population counts from decimals into whole numbers
+  * State abbreviations to their full names
+* Corrected region types:
+  * New York City from state to city
+  * Puerto Rico & Virgin Islands from states to territories
+* Corrected year "20133" to "2013" in Death dataset.
+* Restructured age groups into consistent format to allow for dataset integration.
+* Integrated datasets using VLOOKUP function.
+* Created new variable that normalizes mortality rates for each age group.
 
 ## Visualizations
 Spatial analysis was crucial for this project’s goal. With the use of an intuitive color gradient, I was able to create a map of the United States that draws the viewer’s eyes to areas most affected by influenza 
