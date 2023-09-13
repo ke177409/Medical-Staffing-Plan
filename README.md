@@ -13,6 +13,7 @@ Excel
 * Statistical analysis
   
 Tableau
+* Data manipulation
 * Visualizations
 * Spatial Analyis
 
