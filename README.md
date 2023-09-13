@@ -5,7 +5,7 @@
 * Built a client dashboard using Tableau.
 
 ## YouTube Project Walk-Through
-(https://youtu.be/vcfuhCl_TEA)
+https://youtu.be/vcfuhCl_TEA
 
 ## Tools & Skills
 ** Excel
@@ -14,7 +14,6 @@
 ** Tableau
 ** Visualizations
 ** Spatial Analyis
-(https://youtu.be/Hctc79cS_os)
 
 ## Purpose & Context
 ** This project was a part of CareerFoundry’s Data Immersion curriculum. 
@@ -27,12 +26,10 @@
 
 ## Visualizations
 ** Spatial analysis was crucial for this project’s goal. With the use of an intuitive color gradient, I was able to create a map of the United States that draws the viewer’s eyes to areas most affected by influenza 
-** infections.
+** infections. Portraying multiple variables in one visualization helped me uncover insights that were not easily identifiable from the raw data. For example, states with more medical staff than influenza patients also 
+** tend to have lower mortality rates.
 ![image](https://github.com/ke177409/Medical-Staffing-Plan/assets/118031032/a725ebdd-f43c-4ba7-af73-8a44ff0f1b08)
 
-** Portraying multiple variables in one visualization helped me uncover insights that were not easily identifiable from the raw data. For example, states with more medical staff than influenza patients also tend to have 
-** lower mortality rates. The viewer can clearly see two states that have significantly more staff than influenza patients. Additionally, the color gradient indicates that these states also experience low mortality rates.
-![image](https://github.com/ke177409/Medical-Staffing-Plan/assets/118031032/acc951da-d950-45b0-8cb1-d28e446f67b9)
 
 ## Recommendations and Findings
 ** The staffing agency should begin allocating medical staff prior to January each year when influenza death counts are highest.
