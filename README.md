@@ -13,26 +13,25 @@ Excel
   
 Tableau
 * Data manipulation
-* Spatial analyis
+* Spatial analysis
 * Visualizations
 
 ## Purpose & Context
 I was tasked to perform exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
 
 ## Data Cleaning, Integration, and Transformation
-* Removed duplicates:
-  * Used concatenate and COUNTIF functions to identify and retain unique combinations of County/Year/Population in US Census dataset.
-* Imputed missing values in Influenza Death dataset: 144 "N/A" values in state column had a state code that matched to "District of Columbia". District of Columbia only had 1,152 values out of the 1,296 expected values for each state.
+* Removed duplicates using concatenate and COUNTIF functions in Excel to retain unique combinations of County/Year/Population in the US Census dataset.
+* Imputed missing state values in Influenza Death dataset by using other identifying variables.
 * Removed columns and rows with missing or irrelevant data:
-  * All age groups and state of Florida in ILI visits
+  * All age groups and the state of Florida in ILI visits dataset
   * "State code" in Influenza Death dataset
 * Converted values into appropriate datatypes:
   * Population counts from decimals into whole numbers
   * State abbreviations to their full names
 * Corrected year "20133" to "2013" in Influenza Death dataset.
-* Restructured age groups into consistent format to allow for dataset integration.
-* Integrated datasets using VLOOKUP function.
-* Created new variable that normalizes mortality rates for each age group.
+* Restructured age groups into a consistent format to allow for dataset integration.
+* Integrated datasets using VLOOKUP function in Excel.
+* Created a new variable that normalizes mortality rates for each age group.
 
 ## Visualizations
 Spatial analysis was crucial for this project’s goal. With the use of an intuitive color gradient, I was able to create a map of the United States that draws the viewer’s eyes to areas most affected by influenza 
@@ -48,13 +47,6 @@ tend to have lower mortality rates.
 ## Recommendations and Findings
 * The staffing agency should begin allocating medical staff prior to January each year when influenza death counts are highest.
 * The weighted average mortality rate and staff-to-patient ratio should be used to determine how many staff members need to be sent to each state.
-
-## The Learning Experience
-My biggest challenge was learning to create visualizations in Tableau that speak for themselves. I researched tutorials and troubleshooting strategies to achieve my intended results.
-The weighted average mortality rate was one of my key variables in this analysis and was developed with the help of my mentor. I intend to use this calculation in future projects after understanding how it can 
-influence results.
-Walking through each step of my process helped me to develop a coherent story for my final presentation. During this process I discovered results that were unexpected, which sparked new ideas to explore and more 
-details to add to the project.
 
 ## Datasets
 * “Influenza deaths by geography, time, age, and gender”, Source: CDC (https://wonder.cdc.gov/ucd-icd10.html)
