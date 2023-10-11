@@ -16,12 +16,15 @@ This repository contains the following:
 ## Tools & Skills
 Excel
 * Data cleansing, transformation, and integration
-* Statistical analysis
+* Translating business requirements
+* Statistical hypothesis testing
   
 Tableau
 * Data manipulation
 * Spatial analysis
-* Visualizations
+* Visual analysis
+* Forecasting
+* Data storytelling
 
 ## Purpose & Context
 I performed exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
