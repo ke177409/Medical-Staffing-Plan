@@ -4,7 +4,7 @@ States during influenza seasons.
 I performed data cleansing and statistical analyses on 2010 to 2017 data obtained from the United States Census and Centers for Disease Control and Prevention (CDC) using Excel and Tableau.
 An interactive dashboard was created to present visualizations using Tableau.
 
-### [YouTube Project Walk-Through](https://youtu.be/vcfuhCl_TEA)
+### [YouTube Project Walk-Through](https://youtu.be/UtJXxrL7UzY)
 ### [Tableau Dashboard](https://public.tableau.com/shared/YD3NBN39Z?:display_count=n&:origin=viz_share_link)
 
 This repository contains the following:
